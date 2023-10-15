@@ -8,3 +8,8 @@ export { default as Candidate } from "./candidate.svg";
 export { default as Boy } from "./boy.svg";
 export { default as Toys } from "./toys.svg";
 export { default as List } from "./list.svg";
+export { default as CheckList } from "./checkList.svg";
+export { default as Call } from "./call.svg";
+export { default as Chat } from "./chat.svg";
+export { default as Clipboard } from "./clipboard.svg";
+export { default as DateIcon } from "./date.svg";

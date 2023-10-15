@@ -1,7 +1,7 @@
 import React from "react";
 import centerDesk from "@/assets/images/centerDesk.png";
 import Image from "next/image";
-import HowToComeSection from "@/app/components/howToCome/HowToComeSection";
+
 export default function page() {
   return (
     <div>
@@ -17,7 +17,7 @@ export default function page() {
           </div>
 
           <div className="absolute px-4 md:px-9 z-30 pt-10 md:pt-20">
-            <div className="text-neutral-40 label6">Visit us</div>
+            <div className="text-neutral-40 label5">Visit us</div>
             <div className="h5 mt-2">연락처 / 운영 시간</div>
             <div className="flex justify-start mt-6 mb-6">
               <div>
