@@ -1,0 +1,10 @@
+export { default as HomeStar } from "./homeStar.svg";
+export { default as Inform } from "./inform.svg";
+export { default as ReportCheck } from "./reportCheck.svg";
+export { default as Profile } from "./profile.svg";
+export { default as CenterObject1 } from "./centerObject1.svg";
+export { default as CenterObject2 } from "./centerObject2.svg";
+export { default as Candidate } from "./candidate.svg";
+export { default as Boy } from "./boy.svg";
+export { default as Toys } from "./toys.svg";
+export { default as List } from "./list.svg";
