@@ -4,7 +4,7 @@ import image from "./image.png";
 export default function page() {
   return (
     <div className="">
-      <ImageDesc image={image} buttonLabel={"언어치료 상담 신청"} buttonUrl={""} />
+      <ImageDesc image={image} buttonLabel={"언어치료 상담 신청"} buttonUrl={""} treatment={""} content={""} />
       <DoctorDesc items={languageItem} />
     </div>
   );
