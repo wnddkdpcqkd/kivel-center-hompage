@@ -9,7 +9,6 @@ export default function page() {
         <div className="relative flex max-w-7xl mx-auto">
           <div className="absolute h-full w-full space-gradient z-10"></div>
           <div className="px-4 pt-10 z-20 relative bg-transparent md:w-1/3 md:pt-20">
-            <div className="text-neutral-40 label6">Kivel’s space</div>
             <div className="h5 mt-2">키블센터 공간</div>
             <div className="mt-8 body1">{`아이들이 편안하고 쾌적한 공간에서 치료를 받을 수 있도록\n청결하게 관리하고 있습니다.`}</div>
           </div>

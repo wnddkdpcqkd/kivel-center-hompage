@@ -21,7 +21,6 @@ export default function page() {
           </div>
 
           <div className="absolute w-full px-4 md:px-9 z-30 pt-10 md:pt-20">
-            <div className="text-primary-60 label5">Kivel’s objective</div>
             <div className="h4 mt-2">키블의 약속</div>
             <div className="mt-8">
               <div className="flex items-center justfiy-center">
@@ -42,7 +41,6 @@ export default function page() {
       </div>
 
       <div className="py-20 px-9">
-        <div className="label5 text-neutral-40">Kivel’s programs</div>
         <div className="h5 mt-2">발달 상황을 다각도로 분석하고, 최적화된 치료 프로그램을 계획합니다.</div>
         <div className="mt-6 body2">{`모든 아이들은 각자만의 속도와 장점을 가지고 발달합니다.\n우리 아이가 어느 부분이 잘 발달하고, 어느 부분이 미숙한지 명확하게 알아야 그에 맞는 양육환경을 조성할 수 있습니다.\n키블은 근거 중심으로 아이들의 성장/발달을 다방면으로 분석하고, 아이들에게 최적화된 치료 프로그램을 계획합니다.`}</div>
 

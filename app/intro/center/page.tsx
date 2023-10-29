@@ -12,7 +12,6 @@ export default function page() {
       </div>
 
       <div className="py-14 md:py-20">
-        <div className="text-neutral-40 label6 text-center">Kivel’s objective</div>
         <div className="h5 text-center mt-2">키블센터의 목표</div>
         <div className="px-4 mt-10 flex flex-col gap-y-10 md:flex-row md:gap-x-8 justify-center ">
           <CenterObjectCard
@@ -32,7 +31,6 @@ export default function page() {
       </div>
 
       <div className="bg-neutral-10 py-8 px-4 md:py-16 md:px-9">
-        <div className="text-neutral-40 label6 text-center">Kivel’s solution</div>
         <div className="h5 text-center mt-2">키블센터의 솔루션</div>
 
         <div className="flex flex-col gap-y-8 my-10 md:my-16 md:flex-row md:flex-wrap md:gap-14 max-w-screen-md mx-auto">

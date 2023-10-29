@@ -4,7 +4,6 @@ import ExpertCard from "./ExpertCard";
 export default function ExpertIntroSection() {
   return (
     <div className="py-8 md:p-9 bg-neutral-10">
-      <div className="text-neutral-40 label6 text-center">Kivel’s programs</div>
       <div className="h5 text-center mt-2 mb-10 md:mb-16">키블센터의 프로그램</div>
       <div className="flex md:justify-center gap-x-4 md:gap-x-8">
         <div className="w-56 md:w-60">

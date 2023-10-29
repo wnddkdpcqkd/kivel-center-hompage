@@ -5,7 +5,6 @@ import { HomeStar, Inform, ReportCheck } from "@/assets/svg";
 export default function CenterProgramSection() {
   return (
     <div className="py-14 md:py-20">
-      <div className="text-neutral-40 label6 text-center">Kivel’s programs</div>
       <div className="h5 text-center mt-2">키블센터의 프로그램</div>
 
       <div className="flex mt-10 items-center gap-x-4 md:gap-x-8 justify-center">

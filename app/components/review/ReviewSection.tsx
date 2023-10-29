@@ -5,7 +5,6 @@ import { Pagination } from "@/components/Pagination";
 export default function ReviewSection() {
   return (
     <div className="py-8 md:p-9 bg-neutral-10">
-      <div className="text-neutral-40 label6 text-center">Kivel’s programs</div>
       <div className="h5 text-center mt-2 mb-10 md:mb-16">후기</div>
 
       <div className="flex gap-x-4 md:gap-x-6 ">

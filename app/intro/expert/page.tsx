@@ -51,7 +51,6 @@ export default function page() {
         <div className="relative md:flex max-w-7xl mx-auto">
           <div className="absolute h-full w-full center-expert-gradient z-10"></div>
           <div className="px-4 pt-10 z-20 relative bg-transparent md:w-1/2 md:pt-20">
-            <div className="text-neutral-40 label6">Kivel’s objective</div>
             <div className="h5 mt-2">키블센터의 목표</div>
             <div className="mt-8 body1">{`모든 아이들이 행복하게 성장할 수 있도록\n오늘도 더 나은 방법을 깊게 고민합니다.`}</div>
           </div>
