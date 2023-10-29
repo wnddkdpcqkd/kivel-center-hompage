@@ -13,3 +13,7 @@ export { default as Call } from "./call.svg";
 export { default as Chat } from "./chat.svg";
 export { default as Clipboard } from "./clipboard.svg";
 export { default as DateIcon } from "./date.svg";
+export { default as Girl } from "./girl.svg";
+export { default as Logo } from "./logo.svg";
+export { default as DoctorWoman } from "./doctorWoman.svg";
+export { default as Logo2 } from "./logo2.svg";

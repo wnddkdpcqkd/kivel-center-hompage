@@ -61,11 +61,13 @@ export default function PlaceIntroSection() {
       <div className="h5 text-center mt-2 mb-10 md:mb-16">공간 소개</div>
 
       <div className="w-full">
-        <div style={{ width: "320px" }} className="mx-auto w-80 lg:w-full">
+        <div className="mx-auto max-w-[340px] lg:max-w-screen-lg lg:w-full">
           <ResponsiveContainer
             carouselRef={ref}
             render={(width, carouselRef) => {
-              const itemWidth = 280;
+              console.log(width);
+
+              const itemWidth = width >= 1024 ? 800 : 280;
               return (
                 <StackedCarousel
                   ref={carouselRef}

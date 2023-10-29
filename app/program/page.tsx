@@ -2,12 +2,27 @@ import React from "react";
 import ProgramTabNavigation from "./components/ProgramTabNavigation";
 import hand from "@/assets/images/hand.png";
 import Image from "next/image";
-import { Call, Chat, CheckList, Clipboard, DateIcon } from "@/assets/svg";
+import { Call, Chat, CheckList, Clipboard, DateIcon, Girl } from "@/assets/svg";
 import ProgramCard from "./components/ProgramCard";
+import TopButtonTab from "../components/TopButtonTab";
+const tabs = [
+  {
+    label: "이용안내",
+    url: "/program",
+  },
+  {
+    label: "치료프로그램",
+    url: "/program/treatment",
+  },
+  {
+    label: "검사프로그램",
+    url: "/program/inspection",
+  },
+];
 export default function page() {
   return (
     <div className="pt-14">
-      <ProgramTabNavigation />
+      <TopButtonTab tabs={tabs} />
 
       <div className="bg-[#F4EEEC]">
         <div className="relative flex max-w-7xl mx-auto">
@@ -45,11 +60,12 @@ export default function page() {
         <div className="mt-6 body2">{`모든 아이들은 각자만의 속도와 장점을 가지고 발달합니다.\n우리 아이가 어느 부분이 잘 발달하고, 어느 부분이 미숙한지 명확하게 알아야 그에 맞는 양육환경을 조성할 수 있습니다.\n키블은 근거 중심으로 아이들의 성장/발달을 다방면으로 분석하고, 아이들에게 최적화된 치료 프로그램을 계획합니다.`}</div>
 
         <div className="px-9 mt-8 flex justify-between">
-          <div className="flex rounded-3xl border-neutral-30 border h-80 w-full bg-[#F5F1EF]">
+          <div className="flex flex-col md:flex-row rounded-3xl border-neutral-30 border h-80 w-full bg-[#F5F1EF]">
             <div className="flex-1 flex items-center justify-center bg-white">
-              <CheckList className="w-44 h-52" />
+              <Girl className="w-44 h-52" />
             </div>
-            <div className="triangle-right"></div>
+            <div className="md:triangle-right hidden" />
+            <div className="triangle-bottom md:hidden" />
             <div className="flex-1 flex items-center justify-center">
               <CheckList className="w-44 h-52" />
             </div>

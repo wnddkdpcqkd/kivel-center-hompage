@@ -2,6 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Inter } from "next/font/google";
+import "slick-carousel/slick/slick-theme.css";
+import MainHeader from "./components/header/MainHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,10 @@ const myFont = localFont({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={myFont.className}>{children}</body>
+      <body className={myFont.className}>
+        <MainHeader />
+        <div className="pt-14">{children}</div>
+      </body>
     </html>
   );
 }
